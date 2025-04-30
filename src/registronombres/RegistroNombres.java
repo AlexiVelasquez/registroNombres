@@ -3,18 +3,21 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package registronombres;
-
+import java.util.Scanner;
 /**
  *
  * @author alexi
  */
 public class RegistroNombres {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Introduce tu nombre: ");
+        String nombre = sc.nextLine();
+        System.out.println("Hola,"+nombre + "!");
+              
     }
+    
     
 }
